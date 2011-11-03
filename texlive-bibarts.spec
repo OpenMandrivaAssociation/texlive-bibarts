@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/bibarts
+# catalog-date 2006-12-29 13:11:21 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-bibarts
 Version:	20061229
 Release:	1
@@ -48,6 +54,7 @@ brief introduction in English, as a comment.).
 %doc %{_texmfdistdir}/doc/latex/bibarts/gbibsort.exe
 #- source
 %doc %{_texmfdistdir}/source/latex/bibarts/gbibsort.c
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ brief introduction in English, as a comment.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
