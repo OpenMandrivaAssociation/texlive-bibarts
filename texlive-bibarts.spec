@@ -55,3 +55,18 @@ brief introduction in English, as a comment.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061229-2
++ Revision: 749601
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061229-1
++ Revision: 717915
+- texlive-bibarts
+- texlive-bibarts
+- texlive-bibarts
+- texlive-bibarts
+- texlive-bibarts
+
