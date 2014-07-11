@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-bibarts
 Version:	20061229
-Release:	7
+Release:	8
 Summary:	"Arts"-style bibliographical information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibarts
