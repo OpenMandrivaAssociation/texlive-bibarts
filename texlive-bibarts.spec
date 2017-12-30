@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/bibarts
-# catalog-date 2006-12-29 13:11:21 +0100
-# catalog-license gpl
-# catalog-version undef
 Name:		texlive-bibarts
-Version:	20061229
-Release:	10
+Version:	2.1
+Release:	1
 Summary:	"Arts"-style bibliographical information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibarts
@@ -36,15 +30,10 @@ brief introduction in English, as a comment.).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/makeindex/bibarts/gbibarts.ist
-%{_texmfdistdir}/tex/latex/bibarts/bibarts.sty
-%doc %{_texmfdistdir}/doc/latex/bibarts/bibarts.pdf
-%doc %{_texmfdistdir}/doc/latex/bibarts/bibarts.tex
-%doc %{_texmfdistdir}/doc/latex/bibarts/gbib209.bat
-%doc %{_texmfdistdir}/doc/latex/bibarts/gbib2e.bat
-%doc %{_texmfdistdir}/doc/latex/bibarts/gbibsort.exe
+%{_texmfdistdir}/tex/latex/bibarts
+%doc %{_texmfdistdir}/doc/latex/bibarts
 #- source
-%doc %{_texmfdistdir}/source/latex/bibarts/gbibsort.c
+%doc %{_texmfdistdir}/source/latex/bibarts
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,19 +43,4 @@ brief introduction in English, as a comment.).
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061229-2
-+ Revision: 749601
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061229-1
-+ Revision: 717915
-- texlive-bibarts
-- texlive-bibarts
-- texlive-bibarts
-- texlive-bibarts
-- texlive-bibarts
-
+cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
