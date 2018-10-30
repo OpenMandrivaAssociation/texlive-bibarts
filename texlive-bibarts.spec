@@ -1,6 +1,6 @@
 Name:		texlive-bibarts
 Version:	2.1
-Release:	2
+Release:	3
 Summary:	"Arts"-style bibliographical information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibarts
