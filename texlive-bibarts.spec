@@ -1,6 +1,6 @@
 Name:		texlive-bibarts
 Version:	64579
-Release:	1
+Release:	2
 Summary:	"Arts"-style bibliographical information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/bibarts
