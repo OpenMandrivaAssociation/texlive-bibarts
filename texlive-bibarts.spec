@@ -1,5 +1,5 @@
 Name:		texlive-bibarts
-Version:	67407
+Version:	74384
 Release:	1
 Summary:	"Arts"-style bibliographical information
 Group:		Publishing
